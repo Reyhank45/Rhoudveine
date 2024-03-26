@@ -48,15 +48,15 @@ void kernel_entry()
 
   //assign each ASCII character to video buffer
   //you can change colors here
-  vga_buffer[0] = vga_entry('H', WHITE, BLACK);
-  vga_buffer[1] = vga_entry('e', WHITE, BLACK);
-  vga_buffer[2] = vga_entry('l', WHITE, BLACK);
-  vga_buffer[3] = vga_entry('l', WHITE, BLACK);
-  vga_buffer[4] = vga_entry('o', WHITE, BLACK);
-  vga_buffer[5] = vga_entry(' ', WHITE, BLACK);
-  vga_buffer[6] = vga_entry('W', WHITE, BLACK);
-  vga_buffer[7] = vga_entry('o', WHITE, BLACK);
-  vga_buffer[8] = vga_entry('r', WHITE, BLACK);
-  vga_buffer[9] = vga_entry('l', WHITE, BLACK);
-  vga_buffer[10] = vga_entry('d', WHITE, BLACK);
+  vga_buffer[0] = vga_entry('R', WHITE, BLACK);
+  vga_buffer[1] = vga_entry('h', WHITE, BLACK);
+  vga_buffer[2] = vga_entry('o', WHITE, BLACK);
+  vga_buffer[3] = vga_entry('u', WHITE, BLACK);
+  vga_buffer[4] = vga_entry('d', WHITE, BLACK);
+  vga_buffer[5] = vga_entry('v', WHITE, BLACK);
+  vga_buffer[6] = vga_entry('e', WHITE, BLACK);
+  vga_buffer[7] = vga_entry('i', WHITE, BLACK);
+  vga_buffer[8] = vga_entry('n', WHITE, BLACK);
+  vga_buffer[9] = vga_entry('e', WHITE, BLACK);
+  vga_buffer[10] = vga_entry(' ', WHITE, BLACK);
 }
